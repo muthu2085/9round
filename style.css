@@ -1,0 +1,273 @@
+
+:root {
+    --qt-title-font-family: 'Barlow Semi Condensed';
+    --qt-title-font-weight: 700;
+    --qt-title-font-style: italic;
+    --qt-title-font-transform: uppercase;
+    --qt-title-gradient-color: linear-gradient(45deg, var(--qt-title-gradient-color-left) 20%, var(--qt-title-gradient-color-right));
+    --qt-nav-parent-font-weight: 700;
+    --qt-nav-parent-font-transform: uppercase;
+    --qt-nav-submenu-font-family: 'Barlow Semi Condensed';
+    --qt-nav-submenu-font-size: 19px;
+    --qt-nav-submenu-font-size-mobile: 17px;
+    --qt-nav-submenu-font-style: italic;
+    --qt-nav-submenu-font-weight: 700;
+    --qt-nav-submenu-font-transform: uppercase;
+}
+body {
+    font-family: "Barlow Condensed", serif;
+    overflow-x: hidden;
+    font-size: 1.15rem;
+}
+.heroheader {
+    background-color: #181818;
+    background-image: url(https://fittlife.qreativethemes.com/wp-content/uploads/2022/10/boxing-class-heading.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+    position: relative;
+    font-family: "Barlow Condensed", serif;
+}
+.background-overlay {
+    background-color: #000000;
+    opacity: 0.6;
+    mix-blend-mode: luminosity;
+    transition: background-color 0.3s, border-radius 0.3s, opacity 0.3s;
+    inset: 0;
+    position: absolute;
+    z-index: 1;
+}
+.zprev {position: relative; z-index: 2;}
+.heroheader p {font-size: 18px; color:#fcfcfc;}
+.custom-heading__title {
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+}
+.custom-heading__title span {
+    background-image: linear-gradient(45deg, #4ead3a 20%, #27a68f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    font-weight: 400;
+}
+.custom-heading__title.sm {
+    font-size:48px;
+    text-align: left;
+}
+.section {
+    padding: 80px 0;
+}
+.list {
+    margin-top: 20px;
+    padding-left: 0;
+}
+.list li {
+    font-size: 19px;
+    margin-bottom: 15px;
+   
+    display: flex;
+    color:#2d2d2d;
+}
+.list li img {
+    width: 20px;
+}
+.list li p {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+p {
+    margin: 0 0 20px 0;
+    word-break: break-word;
+}
+.testimonials-wrap {
+    padding: 40px 0;
+  }
+  .heading-section {
+    text-align: center;
+  }
+  .sub-heading {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+    color: #2e9ca1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .heading-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+  }
+  .testimonial-box {
+    display: block;
+    position: relative;
+    padding: 30px 20px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  }
+  .user-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    min-width: 80px;
+    background-size: 100%;
+  }
+  .carousel-testimonial .item {
+    padding: 30px 10px;
+  }
+  .quote {
+    position: absolute;
+    top: -23px;
+    color: #2e9da1;
+    font-size: 27px;
+  }
+  .name {
+    margin-bottom: 0;
+    line-height: 14px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", serif;
+  }
+  .position {
+    color: #adadad;
+    font-size: 14px;
+  }
+  .carousel-testimonial .owl-nav {
+    text-align: center;
+  }
+  .carousel-testimonial .owl-nav button.owl-next,
+  .carousel-testimonial .owl-nav button.owl-prev {
+    padding: 0 12px !important;
+  }
+  .carousel-testimonial .owl-nav button {
+    outline: none;
+    padding: 0;
+  }
+  .carousel-testimonial .owl-nav button.owl-next span,
+  .carousel-testimonial .owl-nav button.owl-prev span {
+    display: block;
+    font-size: 40px;
+    width: 25px;
+    height: 25px;
+    vertical-align: 0px;
+    line-height: 16px;
+  }
+  .carousel-testimonial .owl-nav button.owl-next.disabled,
+  .carousel-testimonial .owl-nav button.owl-prev.disabled {
+    opacity: 0.5;
+  }
+a.btn, .wpcf7-submit {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 35px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    text-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-color: #87c232;
+    transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+    width:400px;
+    margin:30px auto;
+    display: block;
+}
+a.btn:hover, .wpcf7-submit:hover {
+    background-color: #6aa317;
+    color:#fff;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], select, textarea {
+    color: var(--qt-content-font-color);
+    width: 100%;
+    max-width: 100%;
+    padding: 15px 25px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+label {
+    display: block;
+    color: #000;
+    font-style:italic;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 18px;
+}
+label.asteriks::after {
+    position: relative;
+    content: "*";
+    margin-left: 6px;
+    color: #e75e5e;
+    font-size: 19px;
+}
+ .back-top {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    color: #1d1d1d;
+    font-size: 20px;
+    z-index: 1000;
+    transition: all .2s ease-in-out;
+}
+.footer .back-top.is-visible {
+    opacity: 1;
+    visibility: visible;
+    bottom: 20px;
+}
+.list-default {
+    list-style: none;
+    margin-top: 60px;
+}
+.list-default h4 {
+    padding: 24px 0 0px;
+}
+.opportunities {
+    position: relative;
+    padding: 95px 0px 105px 0px;
+    background-color: #1d1d1d;
+    color:#fff;
+}
+.opportunities-overlay {
+    background-image: url(https://fittlife.qreativethemes.com/wp-content/uploads/2022/08/gym-1.jpg);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    opacity: 0.04;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
