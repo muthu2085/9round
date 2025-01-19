@@ -90,6 +90,7 @@ footer p {margin-bottom: 0;}
   background:url("images/cta-banner.jpeg") no-repeat 0 0;
   width: 100%;
   height: 300px;
+  padding-top: 20px;
 }
 .custom-heading__title span {
     color: #c8102e;
@@ -97,6 +98,12 @@ footer p {margin-bottom: 0;}
     font-size:20px;
     font-weight: 400;
     margin-bottom: 0px;
+}
+.ctabanner .custom-heading__title span {
+  color:#f1f1f2;
+}
+.ctabanner .btn {
+  margin: 10px auto 0;
 }
 .heroheader .custom-heading__title span, .opportunities .custom-heading__title span{color:#f1f1f2}
 .custom-heading__title.sm {
@@ -329,15 +336,46 @@ label.asteriks::after {
 @media all and (max-width:767px) {
 	.heroheader {
 	height:auto;
-	padding-top:50px;
+	padding:50px 20px;
 	}
-	form .form-control:first-child {
+  .heroheader .wpcf7-submit {width:220px; margin: 20px auto 0;}
+	form .col-lg-6:first-child .form-control {
 	margin-bottom:1rem;
 	}
+  .heroheader .col-lg-5 .container {
+    padding: 0;
+  }
 	section#why {
 	padding:60px 30px;
 	}
-	
+  .heroheader .col-lg-5 {
+    padding-top: 30px;
+  }
+  .heroheader .btn {
+    margin:0;
+    line-height: 24px;
+  }
+	.ctabanner {
+    height: auto;
+    position: relative;
+    padding: 30px 30px 16px;
+}
+.ctabanner .container {
+z-index:2;
+position:relative;
+}
+
+.ctabanner::after {
+position:absolute;
+top:0;
+bottom:0;
+right:0;
+left:0;
+background-color:rgba(0,0,0,0.8);
+}
+#franchise .col-lg-3 {
+  padding-bottom: 30px;
+}
 }@media all and (max-width:576px) {
 	.opportunities {
 		padding:30px;
@@ -358,6 +396,7 @@ label.asteriks::after {
 	.ctabanner {
 		height:auto;
 	}
+ 
 	.opportunities li:last-child p {margin-bottom:0;}
 	.heroheader p, p {
 		font-size:16px;
@@ -390,32 +429,5 @@ label.asteriks::after {
 	.accordion-body {
 		font-size:14px!important;
 	}
-	section::after {
-		position:absolute;
-		left:0;
-		right:0;
-		bottom:0;
-		top:0;
-		background-color:rgba(0,0,0,0.07);
-		content:"";
-		display:block;
-	}
-	.ctabanner {
-        height: auto;
-        position: relative;
-        padding: 30px 30px 16px;
-    }
-	.ctabanner .container {
-		z-index:2;
-		position:relative;
-	}
-	.ctabanner 
-	.ctabanner::after {
-		position:absolute;
-		top:0;
-		bottom:0;
-		right:0;
-		left:0;
-		background-color:rgba(0,0,0,0.8);
-	}
+
 }
