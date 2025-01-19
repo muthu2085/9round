@@ -372,6 +372,8 @@ bottom:0;
 right:0;
 left:0;
 background-color:rgba(0,0,0,0.8);
+content:"";
+display: block;
 }
 #franchise .col-lg-3 {
   padding-bottom: 30px;
