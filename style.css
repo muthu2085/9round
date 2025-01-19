@@ -80,7 +80,7 @@ h1, h2, h3, h4, label, .accordion-button {
 }
 .zprev {position: relative; z-index: 2;}
 .heroheader p {font-size: 18px; color:#fcfcfc;}
-footer p {margin-bottom: 0;}
+footer p {margin-bottom: 0; font-size: 14px;}
 .custom-heading__title {
     color: #FFFFFF;
     font-size: 48px;
