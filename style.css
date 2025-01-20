@@ -263,6 +263,10 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
     background-color: #f9f9f9;
     font-size:14px;
 }
+.form-select {
+  height:43px;
+  font-size:14px;
+}
 label {
     display: block;
     color: #000;
