@@ -51,7 +51,7 @@ h1, h2, h3, h4, label, .accordion-button {
   color: #000;
   font-weight: 400;
   border: none;
-  font-size:24px;
+  font-size:18px;
 }
 .accordion-button:not(.collapsed) {
   background: rgb(34,193,195);
@@ -79,11 +79,12 @@ h1, h2, h3, h4, label, .accordion-button {
     z-index: 1;
 }
 .zprev {position: relative; z-index: 2;}
-.heroheader p {font-size: 18px; color:#fcfcfc;}
+.heroheader h1 {line-height: 40px;}
+.heroheader p {font-size: 16px; color:#fcfcfc;}
 footer p {margin-bottom: 0; font-size: 14px;}
 .custom-heading__title {
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;  
 }
 .ctabanner {
@@ -107,7 +108,7 @@ footer p {margin-bottom: 0; font-size: 14px;}
 }
 .heroheader .custom-heading__title span, .opportunities .custom-heading__title span{color:#f1f1f2}
 .custom-heading__title.sm {
-    font-size:48px;
+    font-size:40px;
     text-align: left;
 }
 .section {
@@ -225,10 +226,9 @@ a.btn, .wpcf7-submit {
     position: relative;
 
     padding: 20px 35px;
-    font-style: italic;
+   
     font-weight: bold;
-    font-size: 17px;
-    text-transform: uppercase;
+    font-size: 17px;    
     color: #fff;
     line-height: 1;
     cursor: pointer;
@@ -314,6 +314,9 @@ label.asteriks::after {
 .list-default {
     list-style: none;
     margin-top: 60px;
+}
+.faq .list-default {
+  margin-top: 0;
 }
 .list-default h4 {
     padding: 24px 0 0px;
