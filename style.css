@@ -341,7 +341,7 @@ label.asteriks::after {
     z-index:1;
 }
 
-@media all and (max-width:767px) {
+@media all and (max-width:992px) {
   #support li {
     text-align: center;
   }
