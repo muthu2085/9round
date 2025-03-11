@@ -340,7 +340,14 @@ label.asteriks::after {
     background-color: #c8102e;
     z-index:1;
 }
+
 @media all and (max-width:767px) {
+  #support li {
+    text-align: center;
+  }
+  #support li img {
+    display: inline-block!important;
+  }
 	.heroheader {
 	height:auto;
 	padding:50px 20px;
